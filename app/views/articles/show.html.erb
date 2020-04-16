@@ -5,5 +5,11 @@
   <%= @article.content %>
 </p>
 
+<%# カラム追加した部分の表示 %>
+<p>
+  <strong>Name:</strong>
+  <%= @article.name %>
+</p>
+
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
